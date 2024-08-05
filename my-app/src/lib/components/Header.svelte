@@ -15,7 +15,7 @@
         </a>
     </div>
     <div class="header-socials">
-        <a href="https://github.com/RayanSp">GitHubb<img src="images/arrow.png" class="arrow-img" alt="arrow logo"></a>
+        <a href="https://github.com/RayanSp">GitHub<img src="images/arrow.png" class="arrow-img" alt="arrow logo"></a>
         <a href="https://www.linkedin.com/in/rayan-spall-5b341b29a/">Linkedin<img src="images/arrow.png" class="arrow-img" alt="arrow logo"></a>
     </div>
 </header>
@@ -45,10 +45,10 @@ img {
     height: 3rem;
 }
 
-p {
+/* p {
     color: white;
-    /* transform: translateY(80%); */
-}
+    transform: translateY(80%);
+} */
 
 a {
     text-decoration: none;
