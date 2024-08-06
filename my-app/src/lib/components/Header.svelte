@@ -118,6 +118,11 @@ div a {
 .header-socials a {
     margin: auto;
     padding-right: 1rem;
+    transition: 2s;
+}
+
+.header-socials a:hover {
+    text-decoration: 2px underline;
 }
 
 .arrow-img {

@@ -9,7 +9,7 @@
         utilizing the skills I've acquired during my studies.
       </p>
       <div class="info-links">
-      <a class="contact-btn" href="/info" alt="contact button">Contact me </a>
+      <a class="contact-btn" href="/info" alt="contact button">Contact Me</a>
       <a
         aria-label="this is a link to my github"
         alt="my linkedin"
@@ -123,6 +123,7 @@
     justify-content: center;
     transition: .2s;
     font-weight: bold;
+    font-size: 1.2rem;
   }
 
   .contact-btn:hover {
