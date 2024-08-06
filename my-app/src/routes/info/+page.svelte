@@ -31,17 +31,15 @@
     }
 
     img {
-        width: 60rem;
+        width: 50rem;
         height: auto;
     }
 
     .projects-article {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        align-self: center;
         background: linear-gradient(#3e3e3e, #0c0c0c);
-        width: 60rem;
+        width: 45rem;
         height: 32.5rem;
         border-radius: 15px;
         color: white;
