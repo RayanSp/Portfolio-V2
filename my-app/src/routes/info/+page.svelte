@@ -10,9 +10,10 @@
 <section>
     <article class="safari-article">
         <a href="https://github.com/RayanSp"><img src="images/rayansp.png" class="github-img" alt="rayan logo" /></a>
+        <h1>I develop your web <br>interactions & <span>experiences</span></h1>
     </article>
     <article class="projects-article">
-        <h1>1. Toolgankelijkheid</h1>
+        <h2>1. Toolgankelijkheid</h2>
         <p class="project-desc">Vervoerregio Amsterdam '24 - Een tool voor Vervoerregio Amsterdam waarmee medewerkers intern hun partners kunnen controleren op de toegankelijkheid van hun websites.</p>
         <div class="img-div">
             <img class="projects-image" src="images/vervoerregio.png" alt ="foto website vervoerregio amsterdam">
@@ -29,8 +30,24 @@
         margin-top: 5rem;
     }
 
+    h1 {
+        font-size: 3rem;
+        position: absolute;
+        text-align: left;
+        top: 60px;
+        text-shadow: 3px 3px 1px grey;
+    }
+
+    h1 span {
+        color: grey;
+        font-style: oblique;
+        font-weight: lighter;
+        text-shadow: none;
+    }
+
     .safari-article {
         display: flex;
+        position: relative;
         justify-content: center;
     }
 
@@ -58,7 +75,7 @@
         padding: 2rem;
     }
 
-    h1 {
+    h2 {
         font-size: 2rem;
     }
 
@@ -76,6 +93,11 @@
         filter: blur(2px);
         width: 40rem;
         border-radius: 15px;
+        transition: .4s ease-in-out;
+    }
+
+    .projects-image:hover {
+        filter: none;
     }
 
 </style>
