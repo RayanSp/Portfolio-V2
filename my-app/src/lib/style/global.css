@@ -9,6 +9,11 @@ body {
     /* height: 100%; */
 }
 
+:root {
+  --form-btn: rgb(41, 170, 41);
+  --primary-btn: rgb(20, 20, 20);
+  --c-white: white;
+}
 
 /* @keyframes fade-in {
   from { opacity: 0; }

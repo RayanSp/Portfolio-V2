@@ -108,7 +108,7 @@ a {
 
 div a {
     text-decoration: none;
-    color: white;
+    color: var(--c-white);
 }
 
 .header-socials {

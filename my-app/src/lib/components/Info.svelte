@@ -157,7 +157,7 @@
     width: 55rem;
     height: 30rem;
     border-radius: 15px;
-    color: white;
+    color: var(--c-white);
     margin: 1rem;
     padding: 2rem;
   }
@@ -192,8 +192,8 @@
   .contact-btn {
     display: flex;
     text-decoration: none;
-    background-color: rgb(20, 20, 20);
-    color: white;
+    background-color: var(--primary-btn);
+    color: var(--c-white);
     padding: 0.75rem;
     border-radius: 15px;
     justify-content: center;
@@ -209,7 +209,7 @@
 
   .contact-btn:hover {
     color: rgb(20, 20, 20);
-    background-color: white;
+    background-color: var(--c-white);
   }
 
   h1 {
@@ -226,7 +226,7 @@
     width: 40rem;
     height: 30rem;
     border-radius: 15px;
-    color: white;
+    color: var(--c-white);
     margin: 3rem;
     padding: 0rem;
     margin-bottom: 5rem;
@@ -276,8 +276,8 @@
   }
 
   .btn-primary {
-    background-color: var(--c-lightblue);
-    color: #fff;
+    background-color: var(--form-btn);
+    color: var(--c-white);
   }
 
   .btn-primary:hover {
